@@ -75,10 +75,6 @@ def generate_data(student_id):
     print("Please place this .txt file in the same directory as your Python scripts")
     print("and use it to feed data into your Data Structures for Assessment 1.")
 
-if __name__ == "__main__":
-    print("🚆 Auckland Metro Transit Data Generator 🚆")
-    print("Generating your personalized assessment dataset...")
-    student_id = input("Enter your Whitecliffe Student ID: ")
     
     if student_id.strip():
         generate_data(student_id.strip())
